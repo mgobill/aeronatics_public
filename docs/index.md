@@ -1,9 +1,9 @@
 ---
-title: AeroNatics
+title: App Policies
 layout: default
 ---
 
-# AeroNatics Documentation
+# App Documentations
 
 Looking for privacy policies?
 
