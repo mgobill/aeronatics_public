@@ -1,13 +1,13 @@
 ---
-title: FlightATC Privacy Policy
+title: Flight ATC Privacy Policy
 layout: default
 ---
 
-# FlightATC Privacy Policy
+# Flight ATC Privacy Policy
 
-_Last updated: October 2, 2025_
+_Last updated: November 12, 2025_
 
-This Privacy Policy describes how FlightATC (the “Game”) collects, uses, and shares information about you.
+This Privacy Policy describes how Flight ATC (the “Game”) collects, uses, and shares information about you.
 
 ## 1. Information we collect
 We only collect the information needed to run the public leaderboard and keep your best score in sync.
@@ -42,7 +42,7 @@ We only collect the information needed to run the public leaderboard and keep yo
 - Local data (your personal best) stays on your device until you clear your browser cache or local storage.
 
 ## 6. Children’s privacy
-FlightATC is not directed to children under 13, and we do not knowingly collect personal information from children.
+Flight ATC is not directed to children under 13, and we do not knowingly collect personal information from children.
 
 ## 7. Changes to this policy
 We may update this Privacy Policy from time to time. When we do, we will post the updated version inside the game and revise the “Last updated” date.
