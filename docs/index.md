@@ -118,13 +118,13 @@ store listings, support portals, and policy pages.
           aria-label="Download Aeronatics on the App Store"
         >
           <img
-            src="../assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}"
             alt="Download on the App Store"
           />
         </a>
         <div class="store-badge disabled" aria-label="Google Play coming soon">
           <img
-            src="../assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg"
+            src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}"
             alt="Get it on Google Play (coming soon)"
           />
           <span>Coming soon</span>
@@ -155,7 +155,7 @@ store listings, support portals, and policy pages.
           aria-label="Get Flight ATC on Google Play"
         >
           <img
-            src="../assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg"
+            src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}"
             alt="Get it on Google Play"
           />
         </a>
@@ -167,7 +167,7 @@ store listings, support portals, and policy pages.
           aria-label="Download Flight ATC on the App Store"
         >
           <img
-            src="../assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}"
             alt="Download on the App Store"
           />
         </a>
