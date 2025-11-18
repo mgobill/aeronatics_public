@@ -3,14 +3,44 @@ title: Apps by mgobill
 layout: default
 ---
 
-# App Flight Deck
-
-Explore AeroNatics Studios' aviation apps with polished marketing copy, iconography,
-and quick links to stores, support, and policies.
-
 <style>
 :root {
   color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: 'Inter', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #2563eb;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+.page-header,
+.site-footer {
+  display: none;
+}
+
+section.main-content {
+  max-width: 1120px;
+  padding: 0 1.75rem 4rem;
+  margin: 0 auto;
+  background: transparent;
+  color: inherit;
 }
 
 .hero {
@@ -323,6 +353,7 @@ and quick links to stores, support, and policies.
       <h3>Support & Policies</h3>
       <ul class="policy-links">
         <li><a href="./aeronatics_support">Support Center</a></li>
+        <li><a href="https://discord.gg/yXxE5Yx4" target="_blank" rel="noopener">Join the Discord community</a></li>
         <li><a href="./aeronatics_privacy_policy">Privacy Policy</a></li>
         <li><a href="./aeronatics_csae_policy">CSAE Policy</a></li>
       </ul>
