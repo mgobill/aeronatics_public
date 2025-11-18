@@ -85,10 +85,12 @@ and quick links to stores, support, and policies.
 }
 
 .app-header img {
-  width: 84px;
-  height: 84px;
+  width: 96px;
+  height: 96px;
   border-radius: 22px;
   box-shadow: 0 15px 30px rgba(15, 23, 42, 0.15);
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .app-header h2 {
@@ -160,22 +162,6 @@ and quick links to stores, support, and policies.
   color: #475569;
 }
 
-.info-callout {
-  border-radius: 18px;
-  border: 1px solid rgba(59, 130, 246, 0.35);
-  padding: 1.75rem;
-  background: linear-gradient(125deg, rgba(59, 130, 246, 0.15), rgba(59, 130, 246, 0.03));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
-}
-
-.info-callout h3 {
-  margin-top: 0;
-}
-
-.info-callout a {
-  font-weight: 600;
-}
-
 @media (max-width: 640px) {
   .hero {
     padding: 2rem;
@@ -194,7 +180,7 @@ and quick links to stores, support, and policies.
 </style>
 
 <div class="hero">
-  <p class="eyebrow">Aviation apps crafted by AeroNatics Studios</p>
+  <p class="eyebrow">Aviation apps crafted by mgobill</p>
   <h1>Purpose-built mobile experiences for flight logging, spotting, and air traffic thrills.</h1>
   <p>
     Keep your aviation passion organized with AeroNatics or jump into quick air traffic challenges in Flight ATC.
@@ -328,7 +314,7 @@ and quick links to stores, support, and policies.
         >
           <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="Download on the App Store" />
         </a>
-        <div class="store-badge" style="background:#e2e8f0; cursor:not-allowed; opacity:0.6; padding:0.35rem 0.5rem; border:1px solid rgba(148, 163, 184, 0.6);">
+        <div class="store-badge" style="cursor:not-allowed; opacity:0.6;">
           <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play badge (coming soon)" />
         </div>
       </div>
@@ -342,13 +328,4 @@ and quick links to stores, support, and policies.
       </ul>
     </div>
   </article>
-</div>
-
-<div class="info-callout">
-  <h3>Need press kits or additional assets?</h3>
-  <p>
-    Reach out via <a href="./aeronatics_support">the support center</a> for media requests,
-    release notes, or beta invitations. We're happy to provide screenshots, gameplay clips,
-    or policy clarifications for your storefronts.
-  </p>
 </div>
