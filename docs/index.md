@@ -212,9 +212,6 @@ section.main-content {
 <div class="hero">
   <p class="eyebrow">Individually crafted aviation apps</p>
   <h1>Purpose-built mobile experiences for flight logging, spotting, and air traffic thrills.</h1>
-  <p>
-    Keep your aviation passion organized with AeroNatics or jump into quick air traffic challenges in Flight ATC.
-  </p>
   <ul class="hero-highlights">
     <li>Native iOS + Android experiences</li>
     <li>Community-friendly support centers</li>
